@@ -14,6 +14,8 @@
 		2651BD8B207E6B5D003F375F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2651BD89207E6B5D003F375F /* LaunchScreen.storyboard */; };
 		2651BD96207E6B63003F375F /* PassValueToCustomClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651BD95207E6B63003F375F /* PassValueToCustomClassTests.swift */; };
 		2651BDA1207E6B63003F375F /* PassValueToCustomClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651BDA0207E6B63003F375F /* PassValueToCustomClassUITests.swift */; };
+		2651BDAF207E6D22003F375F /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651BDAE207E6D22003F375F /* CustomClass.swift */; };
+		2651BDB1207E72B0003F375F /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651BDB0207E72B0003F375F /* NewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2651BD9C207E6B63003F375F /* PassValueToCustomClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassValueToCustomClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2651BDA0207E6B63003F375F /* PassValueToCustomClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValueToCustomClassUITests.swift; sourceTree = "<group>"; };
 		2651BDA2207E6B63003F375F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2651BDAE207E6D22003F375F /* CustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
+		2651BDB0207E72B0003F375F /* NewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2651BD87207E6B5D003F375F /* Assets.xcassets */,
 				2651BD89207E6B5D003F375F /* LaunchScreen.storyboard */,
 				2651BD8C207E6B5D003F375F /* Info.plist */,
+				2651BDAE207E6D22003F375F /* CustomClass.swift */,
+				2651BDB0207E72B0003F375F /* NewView.swift */,
 			);
 			path = PassValueToCustomClass;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2651BDAF207E6D22003F375F /* CustomClass.swift in Sources */,
+				2651BDB1207E72B0003F375F /* NewView.swift in Sources */,
 				2651BD83207E6B5B003F375F /* ViewController.swift in Sources */,
 				2651BD81207E6B5B003F375F /* AppDelegate.swift in Sources */,
 			);

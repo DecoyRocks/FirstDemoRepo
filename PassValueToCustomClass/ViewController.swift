@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var view_custom: CustomClass!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view_custom.SetViewProperty(cornerRadius: 43, borderWidth: 2, borderColor: UIColor.red)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
